@@ -22,6 +22,9 @@ console.log ( ' your random alphabet', alphabet);
 const currentAlphabetElement = document.getElementById ('current-alphabet') ;
 currentAlphabetElement.innerText =alphabet;
 
+// set backgroundColor
+ setBackgroundColorById(alphabet);
+
 }
 
 function play (){
